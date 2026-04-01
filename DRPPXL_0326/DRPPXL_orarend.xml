@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="orarend.xsl" type="text/xsl"?>
+
+<orarend> xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="DRPPXL_orarend1.xsd">
+
+    <ora id="01" tipus="gyakorlat">
+        <kurzus>Számításelmélet</kurzus>
+        <Idopont>
+            <nap>hétfő</nap>
+            <tol>09:00</tol>
+            <ig>12:05</ig>
+        </Idopont>
+        <helyszin>online</helyszin>
+        <oktato>Dr. Veres Laura</oktato>
+        <szak>programtervezo informatikus</szak>
+    </ora>
+
+    <ora id="02" tipus="gyakorlat">
+        <kurzus>Komputergrafika és képfeldolgozás</kurzus>
+        <Idopont>
+            <nap>kedd</nap>
+            <tol>12:10</tol>
+            <ig>13:45</ig>
+        </Idopont>
+        <helyszin>online</helyszin>
+        <oktato>Dr. Mileff Péter</oktato>
+        <szak>programtervezo informatikus</szak>
+    </ora>
+
+    <ora id="03" tipus="gyakorlat">
+        <kurzus>Alkalmazások fejlesztése projekt labor II.</kurzus>
+        <Idopont>
+            <nap>kedd</nap>
+            <tol>16:00</tol>
+            <ig>19:10</ig>
+        </Idopont>
+        <helyszin>online</helyszin>
+        <oktato>Dr. Godó Zoltán</oktato>
+        <szak>programtervezo informatikus</szak>
+    </ora>
+
+    <ora id="03" tipus="gyakorlat">
+        <kurzus>Valószínűségszámítás és statisztika</kurzus>
+        <Idopont>
+            <nap>szerda</nap>
+            <tol>8:00</tol>
+            <ig>11:15</ig>
+        </Idopont>
+        <helyszin>Tanterem 116</helyszin>
+        <oktato>Kucsinka Katalin</oktato>
+        <szak>programtervezo informatikus</szak>
+    </ora>
+
+    <ora id="04" tipus="gyakorlat">
+        <kurzus>Oktatás és gamifikáció, videojáték- tanulmányok</kurzus>
+        <Idopont>
+            <nap>szerda</nap>
+            <tol>12:00</tol>
+            <ig>14:35</ig>
+        </Idopont>
+        <helyszin>Tanterem 132</helyszin>
+        <oktato>Perlaki Attila</oktato>
+        <szak>programtervezo informatikus</szak>
+    </ora>
+
+    <ora id="05" tipus="elmélet">
+        <kurzus>Fordítóprogramok</kurzus>
+        <Idopont>
+            <nap>szerda</nap>
+            <tol>17:35</tol>
+            <ig>19:10</ig>
+        </Idopont>
+        <helyszin>online</helyszin>
+        <oktato>Dr. Túri József</oktato>
+        <szak>programtervezo informatikus</szak>
+    </ora>
+
+    <ora id="06" tipus="elmélet">
+        <kurzus>Hálózati architektúrák és protokollok</kurzus>
+        <Idopont>
+            <nap>csütörtök</nap>
+            <tol>9:00</tol>
+            <ig>10:25</ig>
+        </Idopont>
+        <helyszin>online</helyszin>
+        <oktato>Dr. Mileff Péter</oktato>
+        <szak>programtervezo informatikus</szak>
+    </ora>
+
+    <ora id="07" tipus="gyakorlat">
+        <kurzus>Webkönyvtárak</kurzus>
+        <Idopont>
+            <nap>csütörtök</nap>
+            <tol>11:30</tol>
+            <ig>12:55</ig>
+        </Idopont>
+        <helyszin>Informatikaterem 124</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>programtervezo informatikus</szak>
+    </ora>
+</orarend>

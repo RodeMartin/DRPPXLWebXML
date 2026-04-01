@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendéglátás Adatbázis - Neptun_xmltohtml</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #e67e22;
+            --bg-color: #f4f7f6;
+            --table-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--primary-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--primary-color);
+            border-bottom: 3px solid var(--accent-color);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-top: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: var(--table-bg);
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #ecf0f1;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tr:hover {
+            background-color: #f9f9f9;
+        }
+
+        .tag-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #d1d8e0;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.85rem;
+            margin: 2px;
+        }
+
+        .highlight {
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.8rem;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Vendéglátás Nyilvántartás</h1>
+
+    <h2><span class="highlight">E_01</span> - Újhelyi Csárda</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Kategória</th>
+                <th>Cím</th>
+                <th>Főszakács</th>
+                <th>Szakácsok</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>3 csillagos</td>
+                <td>Sátoraljaújhely, Dózsa György utca 2.</td>
+                <td>
+                    <strong>Takács Mihály</strong> (44 év)<br>
+                    <span class="tag">Főszakács</span>
+                    <span class="tag">Szakácsképző</span>
+                </td>
+                <td>
+                    Kis Bertalan (Hidegkonyha) - <em>Vezető-szakács</em><br>
+                    Tóth Pista (BBQ részleg) - <em>Gyakornok</em>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Gyakornoki adatok</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Név</th>
+                <th>Kezdés</th>
+                <th>Időtartam</th>
+                <th>Műszakok</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Varga Gyula (GY_301)</td>
+                <td>2026-01-17</td>
+                <td>7 hónap</td>
+                <td>
+                    <span class="tag">Nappali</span>
+                    <span class="tag">Hétköznap</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Vendégek</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Név</th>
+                <th>Életkor</th>
+                <th>Lakcím</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>V_501</td>
+                <td>Kinizsi Pál</td>
+                <td>77</td>
+                <td>Budapest, Orczy Tér 11.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Rendelések</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Étterem ID</th>
+                <th>Vendég ID</th>
+                <th>Rendelt Étel</th>
+                <th>Összeg</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-color: #fff9f4;">
+                <td>E_01</td>
+                <td>V_501</td>
+                <td class="highlight">Gyros tál sajttal</td>
+                <td><strong>6 900 Ft</strong></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <footer>
+        Sárospatak, 2026
+    </footer>
+</div>
+
+</body>
+</html>
